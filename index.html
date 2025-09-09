@@ -6,38 +6,58 @@
   <title>Links de Saúde Mental</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
       text-align: center;
       padding: 40px;
-      background-color: #f4f4f9;
-    }
-    h1 {
+      background: linear-gradient(135deg, #e6f0ff, #f4f4f9);
       color: #333;
     }
+
+    h1 {
+      color: #004d99;
+      font-size: 2.2em;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    }
+
+    .link-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
     a {
       display: block;
-      margin: 15px auto;
-      padding: 12px 20px;
-      background-color: #0066cc;
+      padding: 15px 25px;
+      background: #0066cc;
       color: white;
       text-decoration: none;
-      border-radius: 8px;
-      width: 80%;
-      max-width: 400px;
+      border-radius: 12px;
       font-size: 18px;
+      font-weight: 500;
+      max-width: 400px;
+      width: 90%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      transition: all 0.3s ease;
     }
+
     a:hover {
-      background-color: #004d99;
+      background: #004d99;
+      transform: scale(1.05);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.2);
     }
   </style>
 </head>
 <body>
-  <h1>Escolha um link</h1>
-  <a href="https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work" target="_blank">
-    OMS – Saúde Mental no Trabalho
-  </a>
-  <a href="https://bvsms.saude.gov.br/bvs/publicacoes/cadernos_atencao_basica_34_saude_mental.pdf" target="_blank">
-    MS Brasil – Caderno de Atenção Básica 34
-  </a>
+  <h1>🌿 Links de Saúde Mental</h1>
+  <div class="link-container">
+    <a href="https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work" target="_blank">
+      OMS – Saúde Mental no Trabalho
+    </a>
+    <a href="https://bvsms.saude.gov.br/bvs/publicacoes/cadernos_atencao_basica_34_saude_mental.pdf" target="_blank">
+      MS Brasil – Caderno de Atenção Básica 34
+    </a>
+  </div>
 </body>
 </html>
